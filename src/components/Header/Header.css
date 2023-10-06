@@ -3,4 +3,30 @@ header{
     background-color:white;
     display:flex;
     font-family:'Satoshi';
+    width:100%;
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav{
+    max-width: var(--width);
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.logo{
+    height:50px;
+    width:50px;
+    padding:20px;
+}
+
+.left{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
 }
