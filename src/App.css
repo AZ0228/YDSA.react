@@ -1,6 +1,6 @@
 :root{
   --bg: white;
-  --accent: #F1011C;
+  --accent: #BC2334;
   --text: white;
   --text1: black;
   --width: 1500px;
@@ -8,9 +8,17 @@
   --h2: 18px;
 }
 
+/* @font-face {
+    font-family: Satoshi-Black;
+    src: url('./assets/fonts/Satoshi-Black.woff') format('woff2')
+         url('./assets/fonts/Satoshi-Black.woff2') format('woff'); 
+    font-weight: bold;
+    font-style: normal;
+} */
+
 h1{
   font-size:var(--h1);
-  font-family:'Satoshi-Black';
+  font-family:"Satoshi-Black";
   font-weight:bold;
 }
 

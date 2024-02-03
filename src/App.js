@@ -1,10 +1,9 @@
-import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Info from './components/Info';
-
-
-const logo = process.env.PUBLIC_URL + '/LOGO.png';
+import React from 'react';
+import './assets/fonts.css'
+import './App.css';
 
 function App() {
   return (
